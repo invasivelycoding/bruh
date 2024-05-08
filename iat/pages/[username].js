@@ -1,18 +1,19 @@
 import React, { useEffect, useState } from 'react';
 import SEO from '../components/seo';
 import Layout from '../components/layout';
-import Avatar from '../public/defaults/avatar.png';
 import dataFetch from '../utils/dataFetch';
 import Loading from '../components/theme/loading';
 import SocialIcon from '../components/theme/socialIcon';
-import langIcon from '../public/icons/language.png';
-import profileIcon from '../public/icons/profile.png';
-import blogIcon from '../public/icons/blog.png';
 import dateFormat from 'dateformat';
 import Link from 'next/link';
 import NotFoundPage from './404';
 
 import { useRouter } from 'next/router';
+
+const langIcon = '/icons/language.png';
+const profileIcon = '/icons/profile.png';
+const blogIcon = '/icons/blog.png';
+const Avatar = '/defaults/avatar.png';
 
 const query = `
   query ($username: String!) {
@@ -124,9 +125,9 @@ const ProfileTemplate = () => {
                     alt={blog.slug + `'s image`}
                   />
                   <Link href={'https://amfoss.in/blog/' + blog.slug}>
-                    <a>
-                      <h5 className="w-90 px-3 pt-3 mb-3 mt-1 mx-2">{blog.title}</h5>
-                    </a>
+
+                    <h5 className="w-90 px-3 pt-3 mb-3 mt-1 mx-2">{blog.title}</h5>
+
                   </Link>
                   <p className="post-card-footer">
                     {dateFormat(new Date(blog.date), 'dS mmmm, yyyy') +

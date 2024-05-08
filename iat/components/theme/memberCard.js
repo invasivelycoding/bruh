@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import Image from 'next/image';
 
-import defaultAvatar from '../../public/defaults/avatar.png';
+const defaultAvatar = '/defaults/avatar.png';
 
 const MemberCard = ({
   username,
@@ -32,12 +32,8 @@ const MemberCard = ({
           className="avatar"
         />
       ) : (
-        <img
-          src={
-            githubUsername
-              ? `https://avatars.githubusercontent.com/${githubUsername}`
-              : defaultAvatar
-          }
+        <Image
+          src={defaultAvatar}
           alt="avatar"
           width={100}
           height={100}

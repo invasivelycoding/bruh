@@ -1,14 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import Layout from '../../components/layout';
 import SEO from '../../components/seo';
-import crowdIcon from '../../public/icons/crowd.png';
-import bulbIcon from '../../public/icons/bulb.png';
 import MemberList from '../../components/projects/membersList';
 import SocialIcon from '../../components/theme/socialIcon';
 import dataFetch from '../../utils/dataFetch';
 import Loading from '../../components/theme/loading';
 
 import { useRouter } from 'next/router';
+
+const crowdIcon = '/icons/crowd.png';
+const bulbIcon = '/icons/bulb.png';
 
 const query = ` query($slug: String!) {
   project(slug: $slug) {

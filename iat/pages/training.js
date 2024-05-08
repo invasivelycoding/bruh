@@ -1,15 +1,17 @@
 import React from 'react';
 import Layout from '../components/layout';
-import android from '../public/illus/android.png';
 import TraningSections from '../components/training/trainingSections';
 import Timeline from '../components/training/timeline';
 import TrainingHighlights from '../components/training/trainingHighlights';
 import TrainingMentor from '../components/training/trainingMentors';
 import Projects from '../components/training/ProjectCard';
 import SEO from '../components/seo';
+
+const android = '/illus/android.png';
+
 export default () => {
   const styling = {
-    backgroundImage: `url('../../photos/training.jpg')`,
+    backgroundImage: `url('/photos/training.jpg')`,
   };
 
   return (

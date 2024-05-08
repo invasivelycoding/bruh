@@ -23,7 +23,7 @@ const Branding = () => (
             <tr>
               <td colspan="2">
                 <div id="img-main">
-                  <Link href="/branding/SLOGAN-BLACK.png">
+                  <Link href="/branding/SLOGAN-BLACK.png" legacyBehavior>
                     <img class="img" src={'SLOGAN-BLACK.svg'} alt="logo" />
                   </Link>
                 </div>
@@ -59,11 +59,11 @@ const Branding = () => (
                 <img class="img" src={'SLOGAN-BLACK.png'} alt="logo" />
                 <p class="card-img-link">
                   <Link href="/branding/SLOGAN-BLACK.png">
-                    <a>PNG</a>
+                    PNG
                   </Link>{' '}
                   |{' '}
                   <Link href="/branding/SLOGAN-BLACK.svg">
-                    <a>SVG</a>
+                    SVG
                   </Link>
                 </p>
               </div>
@@ -77,10 +77,10 @@ const Branding = () => (
                 <img className="img" src={'SLOGAN-WHITE.png'} alt="logo" />
                 <p className="card-img-link">
                   <Link href="/branding/SLOGAN-WHITE.png">
-                    <a>PNG |</a>
+                    PNG |
                   </Link>{' '}
                   <Link href="/branding/SLOGAN-WHITE.svg">
-                    <a>SVG </a>
+                    SVG 
                   </Link>
                 </p>
               </div>
@@ -106,11 +106,11 @@ const Branding = () => (
                 />
                 <p className="card-img-link">
                   <Link href="/branding/HORIZONTAL-TEXT-BULB-BLACK.png">
-                    <a>PNG</a>
+                    PNG
                   </Link>{' '}
                   |{' '}
                   <Link href="/branding/HORIZONTAL-TEXT-BULB-BLACK.svg">
-                    <a>SVG</a>
+                    SVG
                   </Link>
                 </p>
               </div>
@@ -128,10 +128,10 @@ const Branding = () => (
                 />
                 <p className="card-img-link">
                   <Link href="/branding/HORIZONTAL-TEXT-BULB-WHITE.png">
-                    <a>PNG |</a>
+                    PNG |
                   </Link>{' '}
                   <Link href="/branding/HORIZONTAL-TEXT-BULB-WHITE.svg">
-                    <a>SVG</a>
+                    SVG
                   </Link>
                 </p>
               </div>
@@ -147,10 +147,10 @@ const Branding = () => (
                 <img className="img" src={'BULB-BLACK.png'} alt="logo" />
                 <p className="card-img-link">
                   <Link href="/branding/BULB-BLACK.png">
-                    <a>PNG |</a>
+                    PNG |
                   </Link>{' '}
                   <Link href="/branding/BULB-BLACK.svg">
-                    <a>SVG</a>
+                    SVG
                   </Link>
                 </p>
               </div>
@@ -164,10 +164,10 @@ const Branding = () => (
                 <img className="img" src={'BULB-WHITE.png'} alt="logo" />
                 <p className="card-img-link">
                   <Link href="/branding/BULB-WHITE.png">
-                    <a>PNG |</a>
+                    PNG |
                   </Link>{' '}
                   <Link href="/branding/BULB-WHITE.svg">
-                    <a>SVG </a>
+                    SVG 
                   </Link>
                 </p>
               </div>

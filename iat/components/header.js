@@ -4,10 +4,11 @@ import Menu from './theme/menu';
 import SocialMenu from './theme/socialMenu';
 import Link from 'next/link';
 import classnames from 'classnames';
-import amFOSSLogo from '../public/amfoss_logo.png';
+
+const amFOSSLogo = '/amfoss_logo.png'; // assuming the image is in the public directory
 
 const styling = {
-  backgroundImage: `url('../../logo_light.png')`,
+  backgroundImage: `url('/logo_light.png')`, // assuming the image is in the public directory
 };
 class Header extends React.Component {
   constructor(props) {
@@ -19,7 +20,7 @@ class Header extends React.Component {
 
   showSidebar = () => {
     const current = this.state.showSidebar;
-    this.setState({ showSidebar: !current });
+    this.setState({ showSidebar:!current });
   };
 
   render() {
@@ -32,13 +33,13 @@ class Header extends React.Component {
             onClick={this.showSidebar}
             className={classnames(
               `fas`,
-              this.state.showSidebar ? `fa-times` : `fa-bars`
+              this.state.showSidebar? `fa-times` : `fa-bars`
             )}
           />
         </div>
-        <div id="sidebar" className={this.state.showSidebar ? 'show' : 'hide'}>
+        <div id="sidebar" className={this.state.showSidebar? 'show' : 'hide'}>
           <div>
-            <Link href="/">
+            <Link href="/" legacyBehavior>
               <div className="logo" style={styling} />
             </Link>
             <Menu />

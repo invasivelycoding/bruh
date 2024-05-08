@@ -9,7 +9,7 @@ import ThanksAll from '../components/home/thanksAll';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="India's Leading FOSS Club" />
+    <SEO title="Iowa Tech Education" />
     <HomeLanding />
     <div style={{ background: '#ffe' }}>
       <HomeSections />

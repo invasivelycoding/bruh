@@ -1,16 +1,16 @@
 import React from 'react';
 import FooterNav from './theme/footerNav';
 
-import amritaLogo from '../public/logos/amrita.png';
-import bi0sLogo from '../public/logos/bi0s.png';
-
 const Footer = () => (
   <footer>
     <FooterNav />
     <div className="sub-footer row m-0">
       <div className="col-lg-4 p-2" id="footer-logos">
         <a href="https://amrita.edu">
-          <img src={amritaLogo} alt="amrita" />
+          <img src="/logos/amrita.png" alt="amrita" />
+        </a>
+        <a href="https://bi0s.in/">
+          <img src="/logos/bi0s.png" alt="bi0s" />
         </a>
       </div>
       <div className="col-lg-4 p-2">

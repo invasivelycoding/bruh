@@ -2,8 +2,6 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import Link from 'next/link';
 
-import defaultAvatar from '../../public/defaults/avatar.png';
-
 const ListCard = ({
   username,
   firstName,
@@ -15,13 +13,13 @@ const ListCard = ({
   isHTML,
   link,
 }) =>
-  username ? (
+  username? (
     <div className="card">
       <a href={`/@${username}`}>
         <div className="d-flex">
           <div className="p-0">
             <img
-              src={avatar ? avatar : defaultAvatar}
+              src={avatar? avatar : '/defaults/avatar.png'}
               alt={firstName + ' ' + lastName + `'s photo`}
             />
           </div>
@@ -40,16 +38,16 @@ const ListCard = ({
   ) : (
     <div className="card px-4 pt-4 pb-2 h-100 text-center my-2">
       <div className="mt-2">
-        {!link ? (
+        {!link? (
           <img
-            src={icon ? icon : null}
+            src={icon? icon : null}
             alt={title}
             style={{ width: '15vmax', maxWidth: '100%', minWidth: '180px' }}
           />
         ) : (
           <a href={link}>
             <img
-              src={icon ? icon : null}
+              src={icon? icon : null}
               alt={title}
               style={{ width: '15vmax', maxWidth: '100%', minWidth: '180px' }}
             />
@@ -57,7 +55,7 @@ const ListCard = ({
         )}
       </div>
       <h5 className="mt-4">{title}</h5>
-      {!isHTML ? (
+      {!isHTML? (
         <div className="list-tagline">{tagline}</div>
       ) : (
         <div dangerouslySetInnerHTML={{ __html: tagline }} />
