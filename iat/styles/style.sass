@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:700&display=swap')
 @import url('https://fonts.googleapis.com/css?family=Poppins:400&display=swap')
 @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css')
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap')
 
 @import "navigation"
 @import "project"
@@ -10,9 +11,10 @@
 @import "profile"
 
 body
-  background: #eee
+  background: #000
   margin: 0
-  font-family: 'Poppins', sans-serif
+  font-family: 'Rubik', sans-serif
+  font-weight: 400
 
 footer
   display: block
@@ -52,7 +54,7 @@ footer
       color: white
 
 h1, h2, h3, h4, h5, h6
-  font-family: 'Josefin Sans', sans-serif
+  font-family: 'Rubik', sans-serif
   font-weight: 700
 
 a
@@ -88,7 +90,7 @@ h6
   text-justify: inter-word
 
 .bg-brand
-  background: #ffc107!important
+  background: #ffc100!important
 
 .heading-font
   font-family: 'Josefin Sans', sans-serif
@@ -426,7 +428,6 @@ main .profile
       div
         div
           width: 100%
-
 #home-landing
   position: relative
   height: 100vmin
@@ -436,7 +437,7 @@ main .profile
   background-color: #333
   background-image: url("../public/photos/cover.jpg")
   color: white
-  .overlay
+ .overlay
     background: linear-gradient(to right, rgba(0,0,0,0.70),rgba(0,0,0,0.75),rgba(0,0,0,0.80),rgba(0,0,0,0.75),rgba(0,0,0,0.70))
     height: 100%
     #landing-info
@@ -455,25 +456,46 @@ main .profile
           display: block
           margin-top: 0.5rem
           color: rgb(0, 162, 255)
-      p
-        max-width: 1200px
-        line-height: 1.5
-        font-size: 1.2rem
-        margin-bottom: 2rem
-    #landing-btn
-      position: absolute
-      bottom: 1.5rem
-      text-align: center
-      justify-content: center
-      width: 100%
-      a
-        color: white
-        padding: 0.5rem 1rem
-        margin: 1rem 0.5rem
-        font-size: calc(1rem + 2vw)
-        text-decoration: none
-      a:hover
-        text-decoration: none
+          /* Add typewriter effect */
+          overflow: hidden
+          white-space: nowrap
+          animation: typewriter 3s steps(40) forwards
+          /* Add blinking cursor */
+          position: relative
+          &::after
+            content: ""
+            position: absolute
+            right: -1.5em
+            top: 0
+            height: 100%
+            width: 2em
+            background-color: white
+            animation: blink 1s infinite
+
+// Typewriter animation
+@keyframes typewriter
+  from
+    width: 0
+  to
+    width: 100%
+
+// Blinking cursor animation
+@keyframes blink
+  from, to
+    border-right-color: transparent
+ 50%
+    border-right-color: white
+
+// Breathing animation
+@keyframes breathe
+  from
+    transform: scale(1)
+  to
+    transform: scale(1.05)
+
+// Apply breathing animation to text
+#landing-info
+  animation: breathe 3s ease-in-out infinite
 
 .stats-card
   padding: 6vh 0

@@ -6,13 +6,23 @@ export default () => {
     backgroundImage: `url('../../illus/InnovatEd Tech Club Brochure.png')`,
   };
 
+  const animationKeyframes = `
+    @keyframes bounce {
+      0% { transform: translateY(50px); }
+      50% { transform: translateY(-50px); }
+      100% { transform: translateY(50px); }
+    }
+  `;
+
   return (
     <div id="home-landing" style={styling}>
       <div className="overlay">
+        <style>{animationKeyframes}</style>
         <div id="landing-btn">
           <a
             href="#home-section-1"
-            className="fa fa-chevron-down animated infinite bounceOutDown delay-2s slow p-4"
+            className="fa fa-chevron-down bounce-btn p-4"
+            style={{ animation: 'bounce 3s ease-in-out infinite' }}
           />
         </div>
         <div id="landing-info">

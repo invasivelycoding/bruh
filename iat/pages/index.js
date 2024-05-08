@@ -11,7 +11,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Iowa Tech Education" />
     <HomeLanding />
-    <div style={{ background: '#ffe' }}>
+    <div style={{ background: '#000' }}>
       <HomeSections />
       <AlumniSuccess />
       <WhyJoin />

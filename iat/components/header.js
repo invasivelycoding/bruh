@@ -5,7 +5,7 @@ import SocialMenu from './theme/socialMenu';
 import Link from 'next/link';
 import classnames from 'classnames';
 
-const amFOSSLogo = '/amfoss_logo.png'; // assuming the image is in the public directory
+const mobileLogo = '/IA TECH LOGO 3.png'; // assuming the image is in the public directory
 
 const styling = {
   backgroundImage: `url('/IA TECH LOGO 1.png')`, // assuming the image is in the public directory
@@ -27,7 +27,7 @@ class Header extends React.Component {
     return (
       <header>
         <div id="topbar">
-          <img src={amFOSSLogo} alt="amFOSS" />
+          <img src={mobileLogo} alt="IA Tech Ed" />
           <i
             tabIndex="0"
             onClick={this.showSidebar}
