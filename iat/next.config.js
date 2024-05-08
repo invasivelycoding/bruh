@@ -1,5 +1,5 @@
 module.exports = {
-  target: 'serverless',
+  output: 'standalone',
   devIndicators: {
     autoPrerender: false,
   },
@@ -9,7 +9,6 @@ module.exports = {
       'avatars.githubusercontent.com',
       'user-images.githubusercontent.com',
       'imgur.com',
-      'images.unsplash.com',
       'drive.google.com',
     ],
   },
