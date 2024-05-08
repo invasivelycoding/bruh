@@ -8,7 +8,7 @@ import classnames from 'classnames';
 const amFOSSLogo = '/amfoss_logo.png'; // assuming the image is in the public directory
 
 const styling = {
-  backgroundImage: `url('/logo_light.png')`, // assuming the image is in the public directory
+  backgroundImage: `url('/IA TECH LOGO 1.png')`, // assuming the image is in the public directory
 };
 class Header extends React.Component {
   constructor(props) {

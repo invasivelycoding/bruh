@@ -76,15 +76,15 @@ const SectionCard = ({
       <div
         className={classnames(
           `col-xl-6`,
-          `order-xl-${index % 2 === 0 ? 1 : 2}`,
+          `order-xl-${index % 2 === 0? 1 : 2}`,
           `order-lg-1`,
           `d-flex`,
           `align-items-center`
         )}
       >
-        {slider ? (
+        {slider? (
           <CardSlider slider={slider} title={title} />
-        ) : image ? (
+        ) : image? (
           <img src={image} alt={title} className="cover" />
         ) : null}
       </div>
@@ -92,24 +92,35 @@ const SectionCard = ({
         className={classnames(
           `col-xl-6`,
           `mt-4`,
-          `order-md-${index % 2 === 0 ? 2 : 1}`
+          `order-md-${index % 2 === 0? 2 : 1}`
         )}
       >
         <h2>{title}</h2>
         <div
-          className={index % 2 === 0 ? 1 : 2}
-          dangerouslySetInnerHTML={{ __html: content }}
-        />
-        {quote ? (
-          <React.Fragment>
-            <hr />
-            <div className="quote">{quote}</div>
-          </React.Fragment>
-        ) : null}
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            height: '100%', // Set the height to 100% of the parent element
+          }}
+        >
+          <div
+            style={{
+              textAlign: 'left', // Left-align the text
+            }}
+            dangerouslySetInnerHTML={{ __html: content }}
+          />
+          {quote? (
+            <React.Fragment>
+              <hr />
+              <div className="quote">{quote}</div>
+            </React.Fragment>
+          ) : null}
+        </div>
       </div>
     </div>
-    {points && points.length ? SectionPoints(points) : null}
-    {stats && stats.length ? SectionStats(stats) : null}
+    {points && points.length? SectionPoints(points) : null}
+    {stats && stats.length? SectionStats(stats) : null}
   </div>
 );
 
