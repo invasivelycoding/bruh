@@ -3,7 +3,7 @@
 Website for the IAT club, powered by Next.js.
 
 ## :minidisc: Installation Instructions
-Make sure that you have `Node JS` and `NPM ` installed. Else you can refer to [installation page on our wiki](https://github.com/amfoss/website/wiki/Installation)
+Make sure that you have `Node JS` and `NPM ` installed.
 
 Navigate into site's directory and start it up.
 ```
