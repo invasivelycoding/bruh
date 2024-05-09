@@ -10,6 +10,7 @@ const mobileLogo = '/IA TECH LOGO 3.png'; // assuming the image is in the public
 const styling = {
   backgroundImage: `url('/IA TECH LOGO 1.png')`, // assuming the image is in the public directory
 };
+
 class Header extends React.Component {
   constructor(props) {
     super(props);
@@ -86,6 +87,11 @@ class Header extends React.Component {
             </Link>
             <Menu />
             <SocialMenu />
+            <div id="stars-container">
+              <div id="stars" />
+              <div id="stars2" />
+              <div id="stars3" />
+            </div>
           </div>
         </div>
       </header>

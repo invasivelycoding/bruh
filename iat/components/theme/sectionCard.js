@@ -13,6 +13,7 @@ const SectionPoints = (points) => {
             <div>
               <div className="mx-2 mb-4">
                 <img src={point.Icon} alt={point.Text[0] + point.Text[1]} />
+                <h5 style={{ color: '#ffffff' }}></h5>
               </div>
               <h5 className="mb-0">
                 {point.Text[0]}
@@ -32,8 +33,8 @@ const SectionStats = (stats) => {
       {stats.map((point) => (
         <div className="col-6 col-md-4 col-lg-3 p-2">
           <div className="stats-card card px-2 h-100">
-            <h6>{point.Num}</h6>
-            <div className="lead">{point.Text}</div>
+            <h6 style={{ color: '#000000' }}>{point.Num}</h6>
+            <div className="lead" style={{ color: '#000000' }}>{point.Text}</div>
           </div>
         </div>
       ))}
@@ -76,15 +77,15 @@ const SectionCard = ({
       <div
         className={classnames(
           `col-xl-6`,
-          `order-xl-${index % 2 === 0? 1 : 2}`,
+          `order-xl-${index % 2 === 0 ? 1 : 2}`,
           `order-lg-1`,
           `d-flex`,
           `align-items-center`
         )}
       >
-        {slider? (
+        {slider ? (
           <CardSlider slider={slider} title={title} />
-        ) : image? (
+        ) : image ? (
           <img src={image} alt={title} className="cover" />
         ) : null}
       </div>
@@ -92,35 +93,28 @@ const SectionCard = ({
         className={classnames(
           `col-xl-6`,
           `mt-4`,
-          `order-md-${index % 2 === 0? 2 : 1}`
+          `order-md-${index % 2 === 0 ? 2 : 1}`
         )}
       >
-        <h2>{title}</h2>
+        <h2 style={{ color: '#ffffff' }}>{title}</h2>
         <div
+          className={index % 2 === 0 ? 1 : 2}
           style={{
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'center',
-            height: '100%', // Set the height to 100% of the parent element
+            textAlign: 'left',
+            color: '#ffffff', /* Change the content text color to white */
           }}
-        >
-          <div
-            style={{
-              textAlign: 'left', // Left-align the text
-            }}
-            dangerouslySetInnerHTML={{ __html: content }}
-          />
-          {quote? (
-            <React.Fragment>
-              <hr />
-              <div className="quote">{quote}</div>
-            </React.Fragment>
-          ) : null}
-        </div>
+          dangerouslySetInnerHTML={{ __html: content }}
+        />
+        {quote ? (
+          <React.Fragment>
+            <hr />
+            <div className="quote" style={{ color: '#ffffff' }}>{quote}</div>
+          </React.Fragment>
+        ) : null}
       </div>
     </div>
-    {points && points.length? SectionPoints(points) : null}
-    {stats && stats.length? SectionStats(stats) : null}
+    {points && points.length ? SectionPoints(points) : null}
+    {stats && stats.length ? SectionStats(stats) : null}
   </div>
 );
 
