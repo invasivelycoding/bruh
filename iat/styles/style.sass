@@ -437,7 +437,7 @@ main .profile
   background-color: #333
   background-image: url("../public/photos/cover.jpg")
   color: white
- .overlay
+  .overlay
     background: linear-gradient(to right, rgba(0,0,0,0.70),rgba(0,0,0,0.75),rgba(0,0,0,0.80),rgba(0,0,0,0.75),rgba(0,0,0,0.70))
     height: 100%
     #landing-info
@@ -472,30 +472,18 @@ main .profile
             background-color: white
             animation: blink 1s infinite
 
-// Typewriter animation
-@keyframes typewriter
-  from
-    width: 0
-  to
-    width: 100%
+// // Typewriter animation
+// @keyframes typewriter
+//   from
+//     width: 0
+//   to
+//     width: 100%
 
-// Blinking cursor animation
-@keyframes blink
-  from, to
-    border-right-color: transparent
- 50%
-    border-right-color: white
-
-// Breathing animation
-@keyframes breathe
-  from
-    transform: scale(1)
-  to
-    transform: scale(1.05)
-
-// Apply breathing animation to text
-#landing-info
-  animation: breathe 3s ease-in-out infinite
+// // Blinking cursor animation
+// @keyframes blink
+//   from, to
+//     border-right-color: transparent
+//     border-right-color: white
 
 .stats-card
   padding: 6vh 0
