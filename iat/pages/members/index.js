@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 import Layout from '../../components/layout';
 import SEO from '../../components/seo';
@@ -21,7 +22,7 @@ const query = ` query {
               profilePic
               githubUsername
               tagline
-              batch
+              born
           }
       }
   }`;
@@ -43,6 +44,8 @@ export default class Index extends React.Component {
   goTop = () => {
     window.scrollTo(0, 0);
   };
+
+  //I plan to have the ages be birthear then just do some math here so we dont need to update it
 
   handleSearch(event) {
     this.goTop();
@@ -100,7 +103,7 @@ export default class Index extends React.Component {
       }
       if (this.state.filterYear !== 'everyone') {
         yflag = 0;
-        if (this.state.filterYear === user.profile.batch) yflag = 1;
+        if (this.state.filterYear === user.profile.born) yflag = 1;
       }
       if (this.state.filterRole !== 'everyone') {
         rflag = 0;
@@ -111,7 +114,7 @@ export default class Index extends React.Component {
 
     return (
       <Layout>
-        <SEO title="Members" description="Meet the official amFOSS team members" />
+        <SEO title="Members" description="Meet the central campus cybersecurity class members" />
         <TitleBar title="Members" id="members" />
         <a
           style={{
@@ -140,11 +143,12 @@ export default class Index extends React.Component {
                 filteredMembers
                   .sort((a, b) => a.firstName.localeCompare(b.firstName))
                   .map((user) =>
-                    user.profile.batch && user.profile.displayInWebsite ? (
+                    user.profile.born && user.profile.displayInWebsite ? (
                       <div
                         key={user.username}
                         className="col-6 col-md-6 col-lg-4 col-xl-3 p-2"
                       >
+                      <Link href={`/personal_pages/${user.firstName.toLowerCase()}_${user.lastName.toLowerCase()}`}>
                         <MemberCard
                           username={user.username}
                           firstName={user.firstName}
@@ -153,6 +157,7 @@ export default class Index extends React.Component {
                           profilePic={user.profile.profilePic}
                           githubUsername={user.profile.githubUsername}
                         />
+                      </Link>
                       </div>
                     ) : null
                   )

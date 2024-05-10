@@ -4,6 +4,14 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import TitleBar from '../components/theme/titleBar';
 
+/*
+function getRandomArbitrary(min, max) {
+  return Math.random() * (max - min) + min;
+}
+have a bunch of different things we can display if 404 like
+gnu/linux copy pasta, memes, funny quotes, inside jokes, etc
+*/
+
 const NotFoundPage = () => (
   <Layout>
     <SEO

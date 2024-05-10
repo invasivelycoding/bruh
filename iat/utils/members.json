@@ -2,40 +2,40 @@
   {
     "firstName": "Cooper",
     "lastName": "Sanders",
-    "username": "meyyh",
+    "username": "Csanders",
     "profile": {
       "role": "Mentor",
       "displayInWebsite": true,
       "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeiGnal4e8WYX4wele7Wx2clZ0hi4NQWHTxwid1dmM6ZRc1xfg",
       "githubUsername": "meyyh",
       "tagline": "super cool gamer dude",
-      "batch": "bad"
+      "born": "2006"
     }
   },
   {
     "firstName": "jeff",
     "lastName": "the third esquire",
-    "username": "",
+    "username": "J",
     "profile": {
       "role": "Mentor",
       "displayInWebsite": true,
       "profilePic": "https://i.etsystatic.com/16689297/r/il/3b1b17/2398767489/il_570xN.2398767489_30q8.jpg",
       "githubUsername": "7ine",
       "tagline": "",
-      "batch": "ugly"
+      "born": "2007"
     }
   },
   {
     "firstName": "joel",
     "lastName": "chan",
-    "username": "",
+    "username": "Jchan",
     "profile": {
       "role": "Mentor",
       "displayInWebsite": true,
       "profilePic": "https://thehoya.com/wp-content/uploads/2016/02/B6_Zoolander2.png",
       "githubUsername": "nimblekoala",
       "tagline": "",
-      "batch": "un cool"
+      "born": "2006"
     }
   }
 ]
