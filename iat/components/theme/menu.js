@@ -11,6 +11,7 @@ const ProjectsIcon = '/icons/project.png';
 const blogIcon = '/icons/blog.png';
 const newsIcon = '/icons/newsArt.png';
 const crowdsIcon = '/icons/crowd.png';
+const skull = '/icons/skull.png';
 
 const Menu = () => (
   <div className="menu">
@@ -27,6 +28,11 @@ const Menu = () => (
     <Link href="/life">
 
       <MenuItem name="Life in Club" icon={lifeIcon} />
+
+    </Link>
+    <Link href="/for_students">
+
+      <MenuItem name="For Students" icon={skull}/>
 
     </Link>
     <Link href="/achievements">

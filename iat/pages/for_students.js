@@ -8,7 +8,13 @@ import Projects from '../components/training/ProjectCard';
 import SEO from '../components/seo';
 
 const android = '/illus/android.png';
-
+// rework this page for people who are interested in join cybersecurity
+/*
+1. tell tell them why they would want to join 
+2. tell them more about what we do 
+3. tell them how to join 
+4. profit
+*/
 export default () => {
   const styling = {
     backgroundImage: `url('/photos/training.jpg')`,
@@ -18,7 +24,7 @@ export default () => {
     <Layout>
       <SEO
         title="Training"
-        keywords="android course training skills"
+        keywords="android course training skill"
         description="Android Course Powered by amFOSS and Amrita Center for Cyber Security System"
       />
       <div id="home-landing" style={styling}>
@@ -33,9 +39,9 @@ export default () => {
             <div className="d-flex align-items-center text-lg-left text-center justify-content-center h-100">
               <div>
                 <img src={android} width="150" height="210" />
-                <h3>Android Development</h3>
+                <h3>Chnage this page to be for students who want to join or might want to</h3>
                 <a
-                  href="https://www.payumoney.com/events/#/buyTickets/android-app-development-online-course"
+                  href="https://www.umoney.com/events/#/buyTickets/android-app-development-online-course"
                   style={{ color: 'black', textDecoration: 'none' }}
                 >
                   <button className="mt-2 btn btn-lg button heading-font bg-light">

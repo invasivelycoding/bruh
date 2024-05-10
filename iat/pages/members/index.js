@@ -45,7 +45,7 @@ export default class Index extends React.Component {
     window.scrollTo(0, 0);
   };
 
-  //I plan to have the ages be birthear then just do some math here so we dont need to update it
+  //I plan to have the ages be birth year then just do some math here so we dont need to update it
 
   handleSearch(event) {
     this.goTop();

@@ -13,7 +13,6 @@ const IndexPage = () => (
     <HomeLanding />
     <div style={{ background: '#000' }}>
       <HomeSections />
-      <AlumniSuccess />
       <WhyJoin />
       <ThanksAll />
     </div>
@@ -21,3 +20,4 @@ const IndexPage = () => (
 );
 
 export default IndexPage;
+//<AlumniSuccess />
