@@ -1,5 +1,4 @@
 import React from 'react';
-import CookieCons from '../cookieConsent';
 
 export default () => {
   const styling = {
@@ -34,7 +33,6 @@ export default () => {
           Iowa Tech Education is a club ran at Central Campus in Des Moines, Iowa. As technology advances at a rapid pace, it's essential to connect theoretical knowledge with real-world applications. Our goal is to bridge this gap by offering hands-on training with certifications, competitions, and immersive experiences in a modern tech work environment.
         </p>
       </div>
-          <CookieCons />
         </div>
       </div>
     </div>

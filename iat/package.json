@@ -1,9 +1,9 @@
 {
-  "name": "amfoss-website",
+  "name": "iowatecheducation",
   "version": "0.1.0",
-  "description": "React Based Website of FOSS@Amrtia powered by NextJS",
+  "description": "",
   "private": false,
-  "author": "amFOSS <amritapurifoss@gmail.com>",
+  "author": "",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

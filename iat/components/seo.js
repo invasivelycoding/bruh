@@ -2,22 +2,22 @@ import Head from 'next/head';
 import React from 'react';
 
 export default function SEO({ description, title, image = null, slug = null }) {
-  const siteTitle = 'amFOSS (FOSS@Amrita)';
+  const siteTitle = 'IAT';
   const siteDescription =
-    'A student community based in Amrita Vishwa Vidyapeetham, Amritapuri focused on contributing to FOSS and mentoring students to achieve excellence.';
-  const author = 'amfoss';
-  const siteUrl = slug ? slug : 'https://amfoss.in/';
-  const twitterHandle = 'amfoss_in';
-  const seoCardImagePath = image ? image : '/logos/amfoss_seo.png';
+    'Iowa Tech Education is a club ran at Central Campus in Des Moines, Iowa. As technology advances at a rapid pace, its essential to connect theoretical knowledge with real-world applications. Our goal is to bridge this gap by offering hands-on training with certifications, competitions, and immersive experiences in a modern tech work environment.';
+  const author = 'IowaTechEducation';
+  const siteUrl = slug ? slug : 'https://iowateched.com';
+  const twitterHandle = 'blank';
+  const seoCardImagePath = image ? image : '/IOWA TECH ED 3.png';
   const metaDescription = description || siteDescription;
 
   return (
     <Head>
       <title>{`${title} | ${siteTitle}`}</title>
-      <link rel="shortcut icon" href="/favicon.png" />
+      <link rel="shortcut icon" href="/logos/tablogo.png" />
       <meta
         name="keywords"
-        content="amfoss, foss@amrita, amrita foss, amritapuri foss, amrita, foss club, foss amrita, foss india, foss"
+        content="central campus"
       />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="description" content={metaDescription} />
