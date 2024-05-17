@@ -90,24 +90,24 @@ const FooterNav = () => (
             </h6>
             <p>
               Email:{' '}
-              <a href="mailto:amritapurifoss@gmail.com"> amritapurifoss@gmail.com</a>
+              <a href="mailto:cc@email.com"> cc@email.com</a>
               <br />
               To Contact Administrator:{' '}
-              <a href="mailto:admin@amfoss.in">admin@amfoss.in</a>
+              <a href="mailto:cc@email.com">cc@email.com</a>
               <br />
               For General Queries:{' '}
-              <a href="mailto:hello@amfoss.in">hello@amfoss.in</a>
+              <a href="mailto:cc@email.com">cc@email.com</a>
               <br />
-              For Support: <a href="mailto:support@amfoss.in">support@amfoss.in</a>
+              For Support: <a href="mailto:cc@email.com">cc@email.com</a>
             </p>
             <h6>
               <i className="fa fa-location-arrow" /> Address
             </h6>
             <p>
-              FOSS@Amrita, <br /> Amrita Vishwa Vidyapeetham, <br />
-              Amritapuri, Clappana P.O.,
-              <br />
-              Kollam, Kerala - 690525
+              1800 Grand Ave, <br />
+              Des Moines, IA <br />
+              50309 <br />
+              room # 204
             </p>
           </div>
         </div>

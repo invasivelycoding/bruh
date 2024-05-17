@@ -13,7 +13,7 @@ const Footer = () => (
       <div className="col-lg-3 p-2">
         <div className="w-100">
           <a href="#privacy">Privacy</a>
-          <a href="mailto:amritapurifoss@gmail.com">Feedback</a>
+          <a href="mailto:cc@email.com">Feedback</a>
           <a href="https://coc.amfoss.in/">Code Of Conduct</a>
         </div>
       </div>

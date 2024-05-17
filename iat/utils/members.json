@@ -2,7 +2,7 @@
   {
     "firstName": "Cooper",
     "lastName": "Sanders",
-    "username": "Csanders",
+    "pagename": "cooper_sanders",
     "profile": {
       "role": "Mentor",
       "displayInWebsite": true,
@@ -15,7 +15,7 @@
   {
     "firstName": "jeff",
     "lastName": "the third esquire",
-    "username": "J",
+    "pagename": "J",
     "profile": {
       "role": "Mentor",
       "displayInWebsite": true,
@@ -28,7 +28,7 @@
   {
     "firstName": "joel",
     "lastName": "chan",
-    "username": "Jchan",
+    "pagename": "Jchan",
     "profile": {
       "role": "Mentor",
       "displayInWebsite": true,

@@ -14,7 +14,7 @@ const query = ` query {
       activeUsers(sort: "username") {
           firstName
           lastName
-          username
+          pagename
           profile {
               role
               displayInWebsite
@@ -81,8 +81,8 @@ export default class Index extends React.Component {
       let query = this.state.searchTerm.toLowerCase();
 
       if (query !== '') qflag = 0;
-      // Search matches username
-      if (user.username.toLowerCase().startsWith(query)) qflag = 1;
+      // Search matches first name
+      if (user.firstName.toLowerCase().startsWith(query)) qflag = 1;
       // Search matches firstname and lastname
       if (user.firstName) {
         user.firstName
@@ -144,12 +144,10 @@ export default class Index extends React.Component {
                   .map((user) =>
                     user.profile.born && user.profile.displayInWebsite ? (
                       <div
-                        key={user.username}
                         className="col-6 col-md-6 col-lg-4 col-xl-3 p-2"
                       >
                       <Link href={`/personal_pages/${user.firstName.toLowerCase()}_${user.lastName.toLowerCase()}`}>
                         <MemberCard
-                          username={user.username}
                           firstName={user.firstName}
                           lastName={user.lastName}
                           tag={user.profile.role}
