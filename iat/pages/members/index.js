@@ -8,7 +8,6 @@ import MemberCard from '../../components/theme/memberCard';
 import TitleBar from '../../components/theme/titleBar';
 import dataFetch from '../../utils/dataFetch';
 import ReactLoading from 'react-loading';
-import CookieConsent from '../../components/cookieConsent';
 import memebers from '../../utils/members.json';
 
 const query = ` query {
@@ -223,7 +222,6 @@ export default class Index extends React.Component {
             </div>
           </div>
         </div>
-        <CookieConsent />
       </Layout>
     );
   }

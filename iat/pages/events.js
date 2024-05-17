@@ -5,7 +5,6 @@ import TitleBar from '../components/theme/titleBar';
 import EventsCard from '../components/events/eventsCard';
 import dataFetch from '../utils/dataFetch';
 import ReactLoading from 'react-loading';
-import CookieConsent from '../components/cookieConsent';
 
 const eventsQuery = ` {
   events{
@@ -115,7 +114,7 @@ const Events = () => {
           </div>
         </div>
       </div>
-      <CookieConsent />
+
     </Layout>
   );
 };

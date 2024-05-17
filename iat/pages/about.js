@@ -4,7 +4,6 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import TitleBar from '../components/theme/titleBar';
 import StorySections from '../components/about/storySections';
-import CookieConsent from '../components/cookieConsent';
 
 const About = () => (
   <Layout>
@@ -15,7 +14,6 @@ const About = () => (
     <TitleBar title="About the Club" />
     <h2 className="mt-4 ml-4">Our Story</h2>
     <StorySections />
-    <CookieConsent />
   </Layout>
 );
 

@@ -6,7 +6,6 @@ import TitleBar from '../components/theme/titleBar';
 import dataFetch from '../utils/dataFetch';
 import Loading from '../components/theme/loading';
 import AchievementList from '../components/achievements/achievementList';
-import CookieConsent from '../components/cookieConsent';
 
 const Achievements = () => {
   const [GSoC, setGSoC] = useState([]);
@@ -108,7 +107,6 @@ const Achievements = () => {
           </div>
         </div>
       </div>
-      <CookieConsent />
     </Layout>
   ) : (
     <Loading />
