@@ -61,10 +61,10 @@ const FooterNav = () => (
       </div>
       <div className="col-lg-2 col-6 p-2">
         <div>
-          <h4>The Club</h4>
+          <h4>The Community</h4>
           <ul>
             <li>
-              <a href="http://amfoss.in/blog">amFOSS Blog</a>
+              <a href="http://amfoss.in/blog">IAT Blog</a>
             </li>
             <li>
               <a href="/about#social-initiatives">Social Initiatives</a>

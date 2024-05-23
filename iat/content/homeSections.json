@@ -6,30 +6,30 @@
   },
   {
     "title":"What we do",
-    "image":"illus/what_we_do.svg",
-    "content":"The club operates on the primary principle of mentorship where the senior members of the club individually mentor juniors and the club as such acts as a community where each one helps the other one out.<br> <br> The students contribute to open-source projects of various popular open-source organizations, work ondeveloping projects aimed at solving real-world problems, participate in open-source student programs,attend national and international developer meets, conferences, hackathons and so on. The students also conduct workshops and technical events to encourage others to learn and contribute to open-source.<br> <br> The club believes in the holistic development of students and besides seeking excellence in technical skills also engage in giving talks, conducting debates, taking part in sports and cultural activities including yoga sessions, and so on.",
+    "image":"photos/thinking-christian-bale.gif",
+    "content":"Nothing here yet",
     "Points":
     [
       {
         "Text": [
           "Mentor & train students",
-          "to take on the world"
+          "to protect the world"
         ],
-        "Icon": "illus/mentor.svg"
+        "Icon": "placeholder.png"
       },
       {
         "Text": [
-          "Promote Open Source",
-          "and Computer Science"
+          "Hands-On Experience",
+          "in CTF's and competitions"
         ],
-        "Icon": "illus/promote.svg"
+        "Icon": "placeholder.png"
       },
       {
         "Text": [
-          "Contribute to Open Source",
-          "Projects & Communities"
+          "Medals and Prizes",
+          "try and score the most!"
         ],
-        "Icon": "illus/contribute.svg"
+        "Icon": "placeholder.png"
       }
     ]
 
@@ -37,7 +37,7 @@
   {
     "title":"What we have achieved",
     "image":"illus/what_did_we_achieve.svg",
-    "content":"The club has become one of the forerunners in contributing to open-source in the country, introducing over a hundred enthusiasts every year to the world of Open-source through the club's various activities. <br> <br>Over the years, over 50 students from amFOSS have been a part of the Google Summer of Code program as participating students and many have participated in the program as mentors, as well, pushing Amrita Viswa Vidyapeetham to 7th in the world in <a href=https://opensource.googleblog.com/2019/09/google-summer-of-code-2019-statistics.html>global rankings of universities</a> published by Google. Over 12 students from the club have also been participating in the Google Code-In program as mentors and organisation administrators. <br> <br>Majority of the club alumni have been placed in core computer science companies such as Google, Microsoft, Intel, IBM and VMWare. Members have been getting selected for summer schools at global universities and paid internships at top companies including the Ben Gurion University of the Negev, National Ilan University, University of Tel Aviv, National University of Singapore. Some of our alumni are also currently PhD research scholars at various foreign universities including the Singapore University of Technology and Design, Arizona State University and so on.",
+    "content":"Nothing here yet",
     "Stats": [
       {
         "Num": "500+",

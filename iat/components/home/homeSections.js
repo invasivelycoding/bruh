@@ -10,7 +10,7 @@ export default () => {
       image={edge.image}
       content={edge.content}
       points={edge.Points}
-      stats={edge.Stats}
+      // stats={edge.Stats}
     />
   ));
 };

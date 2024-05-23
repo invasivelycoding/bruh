@@ -14,7 +14,7 @@ const IndexPage = () => (
     <div style={{ background: '#000' }}>
       <HomeSections />
       <WhyJoin />
-      <ThanksAll />
+      {/* <ThanksAll /> */}
     </div>
   </Layout>
 );
