@@ -92,13 +92,9 @@ const FooterNav = () => (
               Email:{' '}
               <a href="mailto:cc@email.com"> cc@email.com</a>
               <br />
-              To Contact Administrator:{' '}
+              School Contact:{' '}
               <a href="mailto:cc@email.com">cc@email.com</a>
               <br />
-              For General Queries:{' '}
-              <a href="mailto:cc@email.com">cc@email.com</a>
-              <br />
-              For Support: <a href="mailto:cc@email.com">cc@email.com</a>
             </p>
             <h6>
               <i className="fa fa-location-arrow" /> Address
@@ -107,7 +103,6 @@ const FooterNav = () => (
               1800 Grand Ave, <br />
               Des Moines, IA <br />
               50309 <br />
-              room # 204
             </p>
           </div>
         </div>

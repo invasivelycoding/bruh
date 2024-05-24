@@ -26,14 +26,8 @@ const Menu = () => (
 
     </Link>
     <Link href="/life">
-
       <MenuItem name="Life in Club" icon={lifeIcon} />
-
-    </Link>
-    <Link href="/for_students">
-
-      <MenuItem name="For Students" icon={skull}/>
-
+      
     </Link>
     <Link href="/achievements">
 
