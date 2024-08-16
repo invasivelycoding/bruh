@@ -1,22 +1,22 @@
 [
   {
-    "Reason": "Advance technically to new Heights",
-    "Icon": "illus/advance.svg",
-    "Explanation": "Web, Android, Data Science, Desktop Application Development, Networks, IoT- learn and prosper under great mentorship and community support, and use your skills to help making real time software in Open Source. Make an impact!"
+    "Reason": "Gain knowledge without spending a penny",
+    "Icon": "illus/knowledge.png",
+    "Explanation": "Gain experiences and knowledge with certifications and competitions paid for by the school and sponsors."
   },
   {
     "Reason": "Receive care & support through mentorship",
-    "Icon": "illus/receive.svg",
-    "Explanation": "Receive care and support from our rich mentorship environment. With the help of experienced folks  - solve your issues, be it technical or non technical, set goals and achieve them all."
+    "Icon": "illus/care.png",
+    "Explanation": "We have many experienced students inside of the classroom that are friendly and offer a great range of help. We also have many connections to other people in cyber and get responses from the best people."
   },
   {
     "Reason": "Become competent to face the real world",
-    "Icon": "illus/become.svg",
-    "Explanation": "Sharpen your skills, get exposed to collaborative product making, be a part and lead developer teams and contribute to real time Open Source software - all the while developing a world class working style. Grow!"
+    "Icon": "illus/competence.png",
+    "Explanation": "Students have the opportunity to participate in internships that help give real world experience and insight into the life of cyber. Not only will you get hands on experience inside of the club, but outside of the club as well, preparing you the best for your future."
   },
   {
     "Reason": "Surf in an ocean of opportunities",
-    "Icon": "illus/surf.svg",
-    "Explanation": "Internships, Student Exchange Programs, Summer Schools, Conferences, Talks, Hackathons - be it GSoC, SoK, RGSoC, Outreachy, FOSDEM etc - get exposed to the best of opportunities out there and prove your metal in the real world. Carpe diem!"
+    "Icon": "illus/star.png",
+    "Explanation": "Our conglomerate network of connections allows you to participate in Internships, Confreneces, Summer Programs, Certificates, Engineering, Competitons, CTFs - SecDSM, SecureIowa, ISEAGE, TestOut, CyberPatriot, and much more. Get the experience not many people have the chance of experiencing to expand your knowledge and be able to build your own connections and prove yourself in the real world."
   }
 ]

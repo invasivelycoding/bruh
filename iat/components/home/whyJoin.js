@@ -25,10 +25,9 @@ export default () => {
             </h6>
           </div>
           <p>
-            Are you a person who thinks out of the box? Are you looking forward to
-            take your technical skills to the next level? Looking for a
-            like-passioned community that cares for you? The Opportunity is here.
-            Iowa Tech Education invites anyone, novice to expert, to visit and learn and be ready for the cuture of our world.
+            Tired of just learning about tech? Want to do tech? Iowa Tech Education is your answer. 
+            Surround yourself with students of the same interest to learn and prepare for the future.
+            Don't just dream about your tech career – build it. Join us today!
           </p>
         </div>
         <div className="col-sm-4 col-lg-3 col-xl-2 px-0 justify-content-center d-flex align-items-center">

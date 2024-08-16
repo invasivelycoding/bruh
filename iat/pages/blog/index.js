@@ -116,10 +116,9 @@ const Blog = () => {
       <TitleBar title="Blog" />
       <div className="row m-0 p-1">
         <div className="col-md-8 col-lg-9 p-2 order-2 order-md-1">
-          <h3 className="mt-4 mx-4">amFOSS Monthly Collections</h3>
+          <h3 className="mt-4 mx-4">IAT Communications Center</h3>
           <div className="mx-4" style={{ fontSize: '20px' }}>
-            amFOSS Monthly is a collection of introductory posts around tech topics
-            that surround us in everyday life.
+            This is for any writeups or events that we have from the club
           </div>
           {collection !== '' && (
             <React.Fragment>

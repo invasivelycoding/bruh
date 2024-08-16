@@ -7,13 +7,13 @@
   {
     "title":"What we do",
     "image":"photos/thinking-christian-bale.gif",
-    "content":"Nothing here yet",
+    "content":"We take students who are interested in advanced technology and Cybersecurity. We give them opportunities to grow, get real experiences, compete in competitions, and to gain certifications.",
     "Points":
     [
       {
         "Text": [
-          "Mentor & train students",
-          "to protect the world"
+          "Teach students the skills to",
+          "protect the world"
         ],
         "Icon": "placeholder.png"
       },
@@ -37,7 +37,7 @@
   {
     "title":"What we have achieved",
     "image":"illus/what_did_we_achieve.svg",
-    "content":"Nothing here yet",
+    "content":"Multiple state wins in CyberPatriot, top placement at ISEAGE competitions held by Iowa State University",
     "Stats": [
       {
         "Num": "500+",

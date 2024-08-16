@@ -3,15 +3,10 @@ import SocialIcon from './socialIcon';
 
 const SocialMenu = () => (
   <div className="social-menu">
-    <SocialIcon name="github" link="https://github.com/amfoss" />
-    <SocialIcon name="facebook" link="https://facebook.com/amfoss.in" />
-    <SocialIcon name="twitter" link="https://twitter.com/amfoss_in" />
-    <SocialIcon name="instagram" link="https://instagram.com/amfoss.in" />
-    <SocialIcon name="linkedin" link="https://linkedin.com/company/amfoss" />
-    <SocialIcon
-      name="matrix"
-      link="https://matrix.to/#/%23amfoss-general:matrix.org"
-    />
+    <SocialIcon name="github" link="https://github.com/iowateched" />
+    <SocialIcon name="twitter" link="https://twitter.com/iowateched" />
+    <SocialIcon name="instagram" link="https://instagram.com/iowateched" />
+    <SocialIcon name="linkedin" link="https://www.linkedin.com/company/des-moines-public-schools" />
   </div>
 );
 

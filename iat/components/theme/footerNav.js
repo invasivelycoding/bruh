@@ -64,13 +64,13 @@ const FooterNav = () => (
           <h4>The Community</h4>
           <ul>
             <li>
-              <a href="http://amfoss.in/blog">IAT Blog</a>
+              <a href="/blog">IAT Blog</a>
             </li>
             <li>
               <a href="/about#social-initiatives">Social Initiatives</a>
             </li>
             <li>
-              <a href="https://github.com/amfoss/workshops">Events & Workshops</a>
+              <a href="/">Events & Workshops</a>
             </li>
             <li>
               <a href="/news">Press & Media</a>
